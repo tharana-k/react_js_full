@@ -1,0 +1,20 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Rubik', sans-serif;
+}
+.area-title {
+  margin-bottom: 60px;
+  position: relative;
+}
+.area-title h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.area-title h4{
+  color: #4c55c4;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}

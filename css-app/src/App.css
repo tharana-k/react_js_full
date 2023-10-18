@@ -1,0 +1,158 @@
+.navbar a{
+  padding: 0px;
+color: #fff;
+}
+.about {
+  padding: 60px 30px;
+}
+.logo a{
+  color: #b9d978;
+  color: #b9d978;
+font-size: 54px;
+}
+.logo p{
+  margin: 0px;
+  color: #979090;
+}
+.navbar{
+  background: #282323;
+display: block;
+padding-top: 10px!important;
+padding-bottom: 30px!important;
+border-bottom: 5px solid #b9d978;
+}
+.menus{
+  float: right;
+}
+.menus a{
+  margin: 5px;
+  padding: 9px 20px;
+background: #545050;
+border-radius: 15px 10px 0 0;
+}
+.about img {
+  object-fit: cover;
+  width: 100%;
+box-shadow: none;
+border: 6px solid #b1a8a8;
+}
+.outerdiv{
+  display: flex;
+  padding: 0 30px;
+}
+.rightwrap{
+  width: 30%;
+}
+.content-wrap{
+  margin: 10px 0;
+  border: 1px solid #ddd;
+padding: 10px;
+border-radius: 13px;
+}
+.active{
+background-color: #b9d978!important;  
+}
+.linkclass a{
+  color: #b2ba67;
+}
+.linkclass li{
+  padding: 6px;
+}
+.menuswrap a{
+  text-decoration: none;
+padding: 0 9px;
+color: #ddd;
+border-right: 2px solid #ddd;
+}
+.menuswrap{
+  text-align: center;
+  margin: 15px 0;
+}
+footer {
+background: #000;
+padding: 15px 0;
+border-top: 5px solid #b9d978;
+}
+footer p{
+color: #ddd;
+font-size: 18px;
+}
+input{
+padding: 10px;
+border: 1px solid #b5b2b2;
+}
+.mains{
+width: 80%;
+margin: 0 auto;
+}
+.text-color{
+color: #2ea8b1;
+
+}
+li::marker{
+color: #2ea8b1;
+font-size: 20px;
+}
+.input-wrap{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+.about{
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about img{
+  box-shadow: 10px 10px 23px 0 #a5a5a5;
+}
+.about-content{
+  padding-left: 53px;
+}
+.about-content h2{
+  font-size: 40px;
+}
+.bg p{
+  color: black;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify;
+  letter-spacing: 0px;
+  word-spacing: 6px;
+
+}
+.bg{
+
+  height: 300px;
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer{
+  background: #000;
+  padding: 8px 0;
+}
+footer p{
+  margin: 0;
+  text-align: center;
+  color: #ffff;
+  font-size: 18px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.accordion-button {
+    font-weight: 600;
+    font-size: 21px!important;
+}
+.accordion{
+    margin-bottom: 60px;
+}

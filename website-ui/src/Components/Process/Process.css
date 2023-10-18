@@ -1,0 +1,95 @@
+.single-process-box {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 16px 32px rgba(166, 188, 233, 0.2);
+    box-shadow: 0 16px 32px rgba(166, 188, 233, 0.2);
+    margin-bottom: 15px;
+    padding: 22px 27px;
+}
+.center {
+    text-align: center;
+}
+.process-icon {
+    background: #f7f8ff none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 112px;
+    margin: 0 auto 16px;
+    padding-top: 34px;
+    text-align: center;
+    width: 112px;
+}
+.process-icon img {
+    width: 50px;
+}
+.process-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.round-button {
+    background: #f7f8ff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #4c55c4;
+    display: inline-block;
+    height: 40px;
+    padding-top: 7px;
+    width: 40px;
+}
+.flex-v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.process-warapper-content {
+    -webkit-transform: translateX(-70px);
+    transform: translateX(-70px);
+    position: relative;
+    z-index: 9;
+}
+
+.area-title h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.process-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.process-area {
+    position: relative;
+}
+.center, .left, .right {
+    position: relative;
+}
+
+.process-area {
+    position: relative;
+}
+.padding-100-50 {
+
+    padding-bottom: 50px;
+}
+
+.row:before {
+    display: table;
+    content: " ";
+}
+.row:after {
+    display: table;
+    content: " ";
+}
+
+.flex-v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
