@@ -1,0 +1,54 @@
+.team-area .home-button{
+    float: right;
+}
+.team-area {
+    padding: 70px 20px;
+}
+
+.single-team-eleven .designation {
+    color: #4c55c4;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.single-team-eleven h3 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.single-team-eleven .member-social-bookmark {
+
+    margin-top: -25px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-team-eleven .member-social-bookmark ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+.single-team-eleven .member-social-bookmark li {
+    display: inline;
+}
+.single-team-eleven .member-social-bookmark li a {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    color: #a7add5;
+    display: inline-block;
+    height: 50px;
+    margin: 0 6px;
+    padding-top: 13px;
+    width: 50px;
+}
+
+.single-team-eleven:hover .member-details .member-social-bookmark {
+    opacity: 1;
+}
+
+.member-details{
+    text-align: center;
+}

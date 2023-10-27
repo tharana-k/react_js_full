@@ -44,6 +44,10 @@ import Context_valuecopy from './Context_valuecopy';
 import { createContext, useState } from 'react';
 import Data from './Data';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Loginform from './Loginform';
+import Login from './Components/Login/Login';
+import Useparams from './Useparams';
+import Router from './Router';
  {/*import Demo1 from './Demo1';
  import Card3 from './Card3';
  import Modal1 from './Modal1';
@@ -64,7 +68,24 @@ function App() {
   return (
     <div className="App">
 
-<BrowserRouter>
+
+<Router/>
+
+
+  {/* 
+  <Login/>
+  <Loginform/>
+  <BrowserRouter>
+
+
+  <Routes>
+  <Route path='/user/:username' element={<Useparams/>}  />
+  </Routes>
+  </BrowserRouter>
+
+
+
+  <BrowserRouter>
 <Routes>
 <Route path='/' element={<><Navbars/><Carousel1/><Cards3/></>}  />
 <Route path='/link1' element={<Accordins/>}  />
@@ -75,7 +96,7 @@ function App() {
 
 
 
-  {/* <Newcontext.Provider value={{data,setData}}>
+  <Newcontext.Provider value={{data,setData}}>
 <Context_valuecopy/>
 
 </Newcontext.Provider>

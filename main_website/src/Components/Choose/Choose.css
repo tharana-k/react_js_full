@@ -1,0 +1,83 @@
+@media screen and (max-width: 1440px){
+.choose-section {
+    padding: 120px 0;
+}
+}
+.choose-section {
+    background: #162834;
+    position: relative;
+    padding: 83px 0;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 1440px){
+.choose-section .choose-backgroundimage1 {
+    top: 5px;
+}
+}
+.choose-section .choose-backgroundimage1 {
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+@media screen and (max-width: 1440px){
+.choose-section .choose-backgroundimage1 img {
+    width: 371px;
+}
+}
+
+.choose-section .choose-backgroundimage2 {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+}
+
+@media screen and (max-width: 1440px){
+.choose-section .choose-image {
+    bottom: -120px;
+    left: 27px;
+}
+}
+.choose-section .choose-image {
+    position: absolute;
+    bottom: -83px;
+    left: -59px;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+@media screen and (max-width: 1440px){
+.choose-section .choose-image img {
+    width: 445px;
+}
+}
+
+.aos-animate h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.aos-animate p{
+    color: #fff;
+}
+@media screen and (max-width: 1440px){
+.choose-section .choose-backgroundimage2 img {
+    width: 184px;
+}
+
+}
+
+@media screen and (max-width: 1440px){
+.choose-section .choose-image img {
+    width: 361px;
+}
+
+}

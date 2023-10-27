@@ -1,0 +1,25 @@
+.logo-section {
+    background: #162834;
+    padding: 61px 0 80px;
+    text-align: center;
+}
+.logo-section h4 {
+    color: #ffffff;
+    margin-bottom: 45px;
+    line-height: 36px;
+}
+.logo-section ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+.logo-section ul {
+    display: flex;
+    justify-content: center;
+}
+.logo-section ul li figure:hover {
+    filter: brightness(0.5) invert(1);
+    transform: translateY(-5px);
+}
+.logo-section ul li figure {
+    transition: all 0.3s ease-in-out;
+}
