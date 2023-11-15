@@ -50,7 +50,7 @@ p {
 .welcome-text-area {
     height: 100%;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 0;
     width: 100%;
   
 }
