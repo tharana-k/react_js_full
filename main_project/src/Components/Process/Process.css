@@ -1,0 +1,129 @@
+.single-process-box {
+    box-shadow: 17px 17px 25px -10px rgba(111, 110, 110, 0.5);
+    margin-bottom: 15px;
+    padding: 22px 27px;
+}
+.center {
+    text-align: center;
+}
+.process-icon {
+    border-radius: 50%;
+    height: 68px;
+    margin: 0 auto 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 68px;
+}
+.process-icon img {
+    width: 41px;
+}
+.process-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.round-button {
+    background: #f7f8ff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #598f85;
+    display: inline-block;
+    height: 40px;
+    padding-top: 7px;
+    width: 40px;
+}
+.flex-v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.process-warapper-content {
+
+    position: relative;
+    z-index: 9;
+}
+
+.area-title h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.process-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.process-area {
+    position: relative;
+}
+.center, .left, .right {
+    position: relative;
+}
+
+.process-area {
+    position: relative;
+}
+.padding-100-50 {
+    padding-top: 43px;
+    padding-bottom: 50px;
+}
+
+.row:before {
+    display: table;
+    content: " ";
+}
+.row:after {
+    display: table;
+    content: " ";
+}
+
+.flex-v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1440px){
+ .service_wrapper .service-image1 {
+    top: 90px;
+    left: -82px;
+}
+}
+.service_wrapper .service-image1 {
+    position: absolute;
+    top: 0px;
+    left: -100px;
+}
+.service_wrapper {
+    position: relative;
+}
+@media screen and (max-width: 1440px){
+.service-image1 img {
+    width: 460px;
+}
+}
+@media screen and (max-width: 1440px){
+.service_wrapper .service-image2 {
+    top: 64x;
+    right: -70px;
+}
+}
+.service_wrapper .service-image2 {
+    position: relative;
+    top: 130px;
+    right: -170px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1440px){
+.service_wrapper .service-image2 img {
+    width: 450px;
+}
+}

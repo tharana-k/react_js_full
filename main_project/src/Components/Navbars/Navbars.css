@@ -1,0 +1,107 @@
+@media (min-width: 769px) and (max-width: 1024px){
+    .nav-link {
+        font-size: 14px!important;
+  }
+}
+.navbar-expand-lg .navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #040430;
+    font-size: 18px;
+    padding: 5px 21px!important;
+    font-weight: 600!important;
+
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+.navbar-brand {
+    font-weight: 900;
+    font-size: 25px;
+    color: #67abd0;
+}
+
+.navbar {
+    background: #ffffff!important;
+
+
+}
+
+.search-button svg{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navbar img{
+    max-width: 200px;
+}
+.header-call-to-action .action-button {
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ed4883 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    padding: 15px 28px;
+    font-weight: 500;
+}
+.header-call-to-action .action-button, .header-call-to-action .search-button {
+    -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+.header-call-to-action .search-button {
+    background: #ff3d46 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    height: 60px;
+    margin-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+}
+
+.is-sticky .header-call-to-action {
+    min-height: 80px;
+}
+.header-call-to-action {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    min-height: 100px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+
+    justify-content: flex-end;
+}
+a{text-decoration: none;}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(237 72 131)!important;
+}
+
+.navbar_container-fluid{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 3px 6px rgba(0, 0, 0, 0.06);
+
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+}

@@ -1,0 +1,23 @@
+.team{
+    padding: 70px 0;
+}
+.details{
+    margin: 20px 0;
+    padding: 0 15px;
+    text-align: center;;
+}
+.details h6{
+    color: #ed4883;
+}
+
+.team img {
+    display: block;
+    padding: 0 15px;
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+}
+
+.align-center{
+    align-items: center;
+}

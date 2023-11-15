@@ -1,0 +1,16 @@
+.counters{
+    padding: 60px 0;
+    background-color: #072f6a;
+    background-image: url('/public/images/bg_overlay.png');
+
+}
+
+.counter-text span{
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+}
+.title{
+    font-size: 24px;
+    color: #fff;
+}

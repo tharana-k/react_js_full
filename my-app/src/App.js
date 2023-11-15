@@ -5,7 +5,7 @@ import Arrayobjects_simpleupdate from './Arrayobjects_simpleupdate';
 import Arraysimpleupdate from './Arraysimpleupdate';
 import Accordins from './Components/Accordins/Accordins';
 import Cards3 from './Components/Cards3/Cards3';
-
+import axios from 'axios'
 import Carousel1 from './Components/Carousels/Carousel1';
 import Footer from './Components/Footer/Footer';
 
@@ -41,7 +41,7 @@ import Dummyaxiosapi_carousel from './Dummyaxiosapi_carousel';
 import Props_no_destructure1 from './Props_no_destructure1';
 import Dummyaxiosapi_card2 from './Dummyaxiosapi_card2';
 import Context_valuecopy from './Context_valuecopy';
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import Data from './Data';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Loginform from './Loginform';
@@ -62,8 +62,16 @@ import Reacticons from './Reacticons';*/}
 
 const Newcontext = createContext();
 function App() {
+   /*const[data,setData] = useState([])
 
- /*const[data,setData]=useState(Data);
+  useEffect(() => {
+  
+  axios.get("https://dummyjson.com/products").then((display)=>{
+      console.log(display);
+      setData(display.data.products)
+  })
+  }, [])
+const[data,setData]=useState(Data);
   console.log(data);*/
   return (
     <div className="App">

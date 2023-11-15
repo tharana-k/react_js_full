@@ -23,8 +23,11 @@ const arraychange =()=>{
 
 const display1 = useContext(Newcontext)
 const {data} = display1
+console.log(display1)
   return (
     <div>
+      
+      <h6>{data.category}</h6>
 {data.map((demo1)=>
 <>
 <h6>{demo1.qualification}</h6>

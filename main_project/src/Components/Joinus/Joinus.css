@@ -1,0 +1,52 @@
+.box-img1:before,.box-img1:after{
+    content: "";
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f3f7fb;
+    z-index: -1;
+    border-width: 9px 15px 0 15px;
+    border-style: solid;
+    border-color: #0d5ef4;
+    border-radius: 999px;
+}
+
+
+.box-img2:before,.box-img2:after{
+
+    border-color: #F20F10!important;
+}
+
+.box-content{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box-content .process-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+.box-img1:after {
+    border: none;
+    top: 9px;
+    left: 4px;
+    width: calc(100% - 9px);
+}
+
+.joinnow{
+    padding: 60px 0;
+}
+
+.box-img1{
+    padding: 20px;
+}
+
+.join-box .header-call-to-action {
+display: block;
+float: none;
+margin: 0 auto;
+width: max-content;
+}

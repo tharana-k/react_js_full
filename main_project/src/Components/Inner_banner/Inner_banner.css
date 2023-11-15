@@ -1,0 +1,149 @@
+
+.home-layer-1 {
+    width: 77%;
+}
+.home-layer-2 {
+    bottom: -39px;
+    width: 51%;
+    position: absolute;
+    right: -8%;
+}
+
+.top-subhidding {
+    color: #ed4883;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.welcome-text h1 {
+    color: #040430;
+    font-size: 69px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+ .welcome-text h1 span {
+
+    font-weight: 600;
+    font-size: 90px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.banner{
+    position: relative;
+}
+.welcome-text-area {
+    padding: 55px 1em;
+}
+
+.para{
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.welcome-text-area {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+    width: 100%;
+  
+}
+
+.home-layer-2 img {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 16px 32px #dddddd;
+    box-shadow: 0 16px 32px #dddddd;
+    padding: 20px;
+}
+
+.home-layer-1 img {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+.home-layer-2 img {
+max-width: 100%;
+}
+
+
+
+.mt40 {
+    margin-top: 40px;
+}
+.home-button a svg {
+
+}
+
+.icon-wrap{
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #0a0c19;
+    height: 60px;
+    padding-top: 20px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+}
+
+.home-img {
+ 
+}
+
+
+
+.home-img .robot-img {
+    border-radius: 20em 20em 20em 20em;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.home-img {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-text{
+    color:#7a7a7a;
+}
+
+
+
+.align{
+align-items: center;
+}
+.arrow-img{
+    width: 22%;
+    bottom: 100%;
+    position: absolute;
+    right: 0;
+}
+.inner-image{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.inner-banner{
+    background: #fff0f5;
+}
+.inner-link{
+    text-transform: uppercase;
+    color: #000;
+}
+.inner-banner h1{
+    font-size: 50px;
+}

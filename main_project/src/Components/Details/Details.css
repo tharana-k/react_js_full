@@ -1,0 +1,24 @@
+.detailss .action-button {
+    text-transform: uppercase;
+    background: #ed4883 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 60px;
+    padding: 15px 42px;
+    font-weight: 500;
+    margin: 0 auto;
+    width: max-content;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.detailss h1{
+    margin-bottom: 30px;
+}
+.detailss{
+    padding: 60px 0;
+}
+
+.detailss .col-md-6{
+    text-align: center;
+}

@@ -1,0 +1,177 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.relative{
+   position: relative; 
+}
+
+.img-fluid{
+  outline: none!important;
+  border: none!important;
+}
+.contents h6{
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ed4883;
+}
+.contents h2 {
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+section{
+  padding-left: 1em!important;
+  padding-right: 1em!important;
+}
+
+.team-main img{
+  height: 300px;
+  width: 300px;
+  object-fit: fill;
+}
+
+.login-forms{
+  padding: 40px 30px;
+  box-shadow: 2px 2px 38px -8px rgba(111, 110, 110, 0.5);
+}
+
+.detail-wrap{
+  padding: 60px 0;
+}
+.homesub1{
+  font-size: 20px;
+  /* padding-top: 20px; */
+  color: #000000;
+  display: block;
+  font-weight: 600;
+  margin: 16px 0;
+}
+
+.login-forms img{
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.sub{
+  margin-right: 20px;
+  margin-top: 20px;
+  background: #ed4883;
+  display: inline-flex;
+  border: none;
+  padding: 10px 20px;
+  justify-content: center;
+}
+.login-forms h1{
+  margin-bottom: 9px;
+  font-size: 26px;
+}
+.navbar-collapse.show{
+  background: #ffe6ef;
+}
+
+.navbar-collapse.show .nav-link {
+  border-bottom: 1px solid #ffbcd4;
+  padding: 13px 21px!important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .welcome-text h1 {
+    font-size: 40px!important;
+  }
+  .about-section .about_wrapper .box .year .value {
+    font-size: 51px!important;
+  }
+  .contents h2 {
+    font-size: 31px!important;
+  }
+  .contents{
+    margin: 30px 0!important;
+  }
+  .about-section {
+    padding: 48px 0 0 0!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 21px!important;
+
+  }
+  .about-section .about_wrapper .box {
+    left: -4px!important;
+    padding: 12px 21px!important;
+}
+  .header-call-to-action .action-button {
+    font-size: 12px;
+}
+.welcome-text h1 {
+  margin-bottom: 20px!important;
+}
+.welcome-text .para{
+  font-size: 20px;
+}
+
+.accordins {
+  padding-left:0px!important;
+}
+.counter-text span {
+  font-size: 41px!important;
+}
+}
+@media only screen and (max-width: 425px) {
+  .counter-text{
+    margin-bottom: 20px;
+  }
+  .team {
+    padding: 35px 1em!important;
+}
+  .arrow-img {
+ display: none;
+}
+.home-button {
+  margin-top: 20px!important;
+}
+.robot-img,.robot-img1{
+  margin-top: 20px!important;
+  width: 80%!important;
+}
+.home-img{
+  text-align: center;
+}
+
+.welcome-text-area {
+  padding: 30px 1em 10px 1em!important;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+.header-call-to-action .action-button {
+  font-size: 12px;
+}
+}

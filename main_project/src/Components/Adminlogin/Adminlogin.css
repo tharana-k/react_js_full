@@ -1,0 +1,7 @@
+.login-form{
+    padding: 60px 0;
+}
+.login-form .col-md-8{
+    padding: 50px 20px;
+    box-shadow: 2px 2px 38px -8px rgba(111, 110, 110, 0.5);
+}
