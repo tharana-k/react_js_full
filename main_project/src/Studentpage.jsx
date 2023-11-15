@@ -11,7 +11,7 @@ const Studentpage = () => {
       <div className='col-md-4'>
       <div className='home-button ' >
       <Link style={{paddingRight: "50px",marginBottom:"47px",marginTop:"0"}} to="/Createstudentpage">
-                      Add new Members</Link>
+                      Add new Students</Link>
                       </div>
   </div>
   <div className='col-md-4'>
@@ -29,7 +29,7 @@ const Studentpage = () => {
               <h5 className='name'>{demo.name} </h5>
               <h6 className='desig'>{demo.desig} </h6>
               <Link className='homesub'  to={`/Updatestudentpage/${ind}`}>
-                      update Members</Link>
+                      update Student</Link>
                       <Link className='homesub1'  to={`/Deletestudentpage/${ind}`}>
                       Delete</Link>
               </div>
