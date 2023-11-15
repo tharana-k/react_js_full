@@ -14,8 +14,8 @@
     display: block;
     padding: 0 15px;
     height: 300px;
-    width: 300px;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
 }
 
 .align-center{
