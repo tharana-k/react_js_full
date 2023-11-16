@@ -15,6 +15,9 @@ const [input,setinput] = useState({
     image:viewdata.image,
     name:viewdata.name,
     desig:viewdata.desig,
+    phone:viewdata.phone,
+    email:viewdata.email,
+    course:viewdata.course
 })
 const handleImageChange = (e) => {
     const file =URL.createObjectURL(e.target.files[0])
@@ -54,10 +57,35 @@ const handleImageChange = (e) => {
       <Form.Label>Name</Form.Label>
         <Form.Control type="text" placeholder="Enter username" value={input.name} onChange={handlechange} name='name'  required/>
       </Form.Group>
+
+     
       <Form.Group className="mb-3" >
         <Form.Label>Designation</Form.Label>
         <Form.Control type="text" placeholder="Enter Designation" value={input.desig} onChange={handlechange} name='desig' required/>
       </Form.Group>
+      <Form.Group className="mb-3" >
+      <Form.Label>Phone</Form.Label>
+        <Form.Control type="tel"  maxlength="10"
+    pattern="[0-9]*"
+    title="Please enter a valid phone number"
+    oninput="this.value = this.value.replace(/[^0-9]/g, '');"  placeholder="Enter phonenumber" value={input.phone} onChange={handlechange} name='phone'  required/>
+      </Form.Group>
+
+      <Form.Group className="mb-3" >
+      <Form.Label>Email</Form.Label>
+        <Form.Control type="email" placeholder="Enter phonenumber" value={input.email} onChange={handlechange} name='email'  required/>
+      </Form.Group>
+      <Form.Group className="mb-3" >
+      <Form.Label>Post to which applying</Form.Label><br></br>
+        <Form.Select name='course' value={input.course} onChange={handlechange} required>
+        <option value="">Select course</option>
+<option value="Lucturer">Lucturer</option>
+<option value="Rector">Rector</option>
+<option value="Advisor">Advisor</option>
+
+        </Form.Select>
+      </Form.Group>
+
 <Button className='homesub' type='submit' style={{marginTop:"0px"}}>Update details</Button>
 
     </Form>

@@ -16,6 +16,9 @@ const [input,setinput] = useState({
     image:viewdata.image,
     name:viewdata.name,
     desig:viewdata.desig,
+    phone:viewdata.phone,
+    email:viewdata.email,
+    course:viewdata.course
 })
 const handleImageChange = (e) => {
     const file =URL.createObjectURL(e.target.files[0])
@@ -55,9 +58,33 @@ const handleImageChange = (e) => {
         <Form.Control type="text" placeholder="Enter username" value={input.name} onChange={handlechange} name='name'  required/>
       </Form.Group>
       <Form.Group className="mb-3" >
-        <Form.Label>Designation</Form.Label>
-        <Form.Control type="text" placeholder="Enter Designation" value={input.desig} onChange={handlechange} name='desig' required/>
+        <Form.Label>Qualification</Form.Label>
+        <Form.Control type="text" placeholder="Enter qualification" value={input.desig} onChange={handlechange} name='desig' required/>
       </Form.Group>
+
+      <Form.Group className="mb-3" >
+      <Form.Label>Phone</Form.Label>
+        <Form.Control type="tel"  maxlength="10"
+    pattern="[0-9]*"
+    title="Please enter a valid phone number"
+    oninput="this.value = this.value.replace(/[^0-9]/g, '');"  placeholder="Enter phone number" value={input.phone} onChange={handlechange} name='phone'  required/>
+      </Form.Group>
+      <Form.Group className="mb-3" >
+      <Form.Label>Email</Form.Label>
+        <Form.Control type="email" placeholder="Enter Mail ID" value={input.email} onChange={handlechange} name='email'  required/>
+      </Form.Group>
+
+      <Form.Group className="mb-3">
+      <Form.Label>Course to which applying</Form.Label><br></br>
+        <Form.Select name='course' value={input.course}  onChange={handlechange} required>
+        <option value="">Select course</option>
+<option value="Engineering">Engineering</option>
+<option value="Business Studies">Business Studies</option>
+<option value="Health Sciences">Health Sciences</option>
+<option value="Law & Legal Studies">Law & Legal Studies</option>
+        </Form.Select>
+      </Form.Group>
+
 <Button className='homesub' type='submit' style={{marginTop:"0px"}}>Update details</Button>
 
     </Form>

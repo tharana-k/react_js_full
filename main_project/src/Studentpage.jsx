@@ -27,7 +27,10 @@ const Studentpage = () => {
       
               <div className='details'>
               <h5 className='name'>{demo.name} </h5>
-              <h6 className='desig'>{demo.desig} </h6>
+              <h6 className='desig'><span style={{color:"#000"}}>Qualification : </span>{demo.desig} </h6>
+              <h6 className='desig'><span style={{color:"#000"}}>Phone : </span>{demo.phone} </h6>
+              <h6 className='desig'><span style={{color:"#000"}}>Email : </span>{demo.email} </h6>
+              <h6 className='desig'><span style={{color:"#000"}}>Course to which applying : </span>{demo.course} </h6>
               <Link className='homesub'  to={`/Updatestudentpage/${ind}`}>
                       update Student</Link>
                       <Link className='homesub1'  to={`/Deletestudentpage/${ind}`}>
