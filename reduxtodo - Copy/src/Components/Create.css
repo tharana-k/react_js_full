@@ -1,0 +1,16 @@
+.parent {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: rgb(133, 129, 129);
+    padding: 5%;
+}
+
+.titlr {
+    color: #fff;
+}
+
+.container {
+    margin: 5%;
+    
+}
